@@ -17,7 +17,6 @@ def capitalize_nested(nested_lists):
 	joined = ' '.join(flattened)
 	capitalized = joined.upper()
 	new_list = capitalized.split()
-	print new_list
 
 
 ##############################################################################
