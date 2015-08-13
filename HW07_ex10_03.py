@@ -6,3 +6,19 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+# Imports
+
+# Body
+def cum_sum(l):
+	return [sum(l[0:index+1]) for index in range(len(l))]
+
+
+##############################################################################
+def main():
+
+    pass
+    # print cum_sum([1,2,3])
+
+if __name__ == '__main__':
+    main()
