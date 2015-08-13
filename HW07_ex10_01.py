@@ -5,3 +5,20 @@
 # In your final submission: 
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+##############################################################################
+# Imports
+
+# Body
+def nested_sum(all_the_lists):
+    flattened_list = [sum(item) if type(item) is list else item for item in all_the_lists]
+    print sum(flattened_list)
+
+##############################################################################
+def main():
+
+    pass
+    # nested_sum([10,0,[1,0]])
+
+if __name__ == '__main__':
+    main()
